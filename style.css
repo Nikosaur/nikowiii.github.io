@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar{
+    background-color: #D8F3DC;
+    padding: 4 !important;
+    height: 70px !important;
+}
+
+.navbar-brand img{
+    height: 75px;
+    padding-left: 50px;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    margin-left:30px;
+  }
+
+.nav-item > a{
+    font-family: 'Poppins', sans-serif !important;
+    color: black !important;
+    margin-left:5px;
+    margin-right:5px;
+    font-size: 18px !important;
+}
+
+.nav-link{
+  font-family: 'Poppins', sans-serif !important;
+  color: black !important;
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 18px !important;
+  transition: color 0.3s !important;
+}
+
+.nav-link:hover{
+  color: gray !important;
+}
+
+.navbar-brand{
+    color:#529a12;
+    font-size: 35px !important;
+    font-weight: 500!important;
+}
+
+nav {
+    display: block;
+  }
+  @media screen and (max-width: 600px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+.Kriteria-produk{
+    text-align: center !important;
+}
+
+.right{
+  text-align: center !important;
+  float: inline-start;
+}
+
+.righta{
+  float: inline-end;
+  margin-left: 569px;
+}
+
+.rightb{
+  float: inline-end;
+  margin-left: 630px;
+  margin-bottom: 30px;
+}
+
+.gbrpasar{
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.gbr1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.inline{
+  float:left;
+  margin-left: 135px;
+  margin-right: 135px;
+  }
+
+.inline > a{
+  color: black !important;
+}
+
+.maindiv{
+  margin-bottom: 100px;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #52B788;
+  border-radius: 10px;
+}
+
+.righta {
+  text-decoration: none;
+  color: #000000;
+  transition: box-shadow 0.3s, color 0.3s;
+}
+
+.righta:hover {
+  box-shadow: 0 0 10px #000000;
+  color: black;
+}
+
+.rightb {
+  text-decoration: none;
+  color: #000000;
+  transition: box-shadow 0.3s;
+}
+
+.rightb:hover {
+  box-shadow: 0 0 10px #000000;
+  color: gray;
+}
